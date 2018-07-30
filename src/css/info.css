@@ -1,0 +1,30 @@
+.table_text {
+    width:95%;
+    margin:20px auto 15px;
+    color:#333;
+}
+.tk_box{
+    color:#666;
+    font-size:16px;
+    margin-bottom:40px;
+}
+.tk_box span{
+    display:inline-block;
+    width:240px;
+}
+.tk_box .bz{
+    float:left;
+    width:75px;
+}
+.tk_box input{
+    height:24px;
+    line-height:24px;
+    float:left;
+    width:250px;
+}
+#map{
+    width:95%;
+    margin:20px auto;
+    overflow:auto;
+    overflow:hidden
+}

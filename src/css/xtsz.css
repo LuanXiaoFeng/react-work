@@ -1,0 +1,72 @@
+.tab_table{
+    margin:30px 0;
+}
+.tab_table .sz_info{
+    width:50%;
+    margin:30px auto;
+}
+.tab_table .sz_img{
+    width:120px;
+    height:120px;
+    border:2px solid #eee;
+    border-radius:50%;
+    overflow:hidden;
+    margin:20px auto 0;
+}
+.tab_table .sz_img img{
+    width:100%;
+}
+.tab_table .sz_info span{
+    font-size:14px;
+    color:#333;
+    margin-right:10px;
+}
+.tab_table .sz_info span i{
+    font-size:12px;
+    color:red;
+}
+.tab_table .sz_info input{
+    font-size:14px;
+    color:#999;
+    width:70%;
+    display:inline-block;
+    border:1px solid #d2d6de;
+    height: 30px;
+    line-height: 30px;
+    padding-left:10px;
+}
+.tab_table .sz_info textarea{
+    font-size:14px;
+    color:#999;
+    width:70%;
+    float:left;
+    border:1px solid #d2d6de;
+    height: 100px;
+    padding:10px 0 0 10px;
+}
+.tab_table .sz_info a{
+    padding:5px 15px;
+    font-size:14px;
+    color:#fff;
+    display:inline-block;
+    margin-right:15px;
+    margin-top:10px;
+    border-radius:4px;
+    cursor: pointer;
+}
+.tab_table .sz_info .bc{
+    background:#18bc9c;
+    margin-left:10px;
+}
+.tab_table .sz_info .qx{
+    background: #ddd;
+    color: #444;
+}
+.tab_table .sz_info .ts{
+    position: absolute;
+    left:45%;
+    top:50px;
+    color:red;
+    font-size:16px;
+    display:none;
+}

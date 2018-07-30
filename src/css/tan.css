@@ -1,0 +1,178 @@
+.tan_content{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.tan_content .bg{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity: 0.5;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:109;
+}
+.tan_box{
+    width:700px;
+    height:500px;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-left:-350px;
+    margin-top:-250px;
+    background:#fff;
+    border-radius:8px 8px;
+    z-index:110;
+    overflow:hidden;
+}
+.tan_box a{
+    cursor: pointer;
+}
+.tan_box .tan_title{
+    width:100%;
+    height:42px;
+    line-height:42px;
+    background:#2c3e50;
+    color:#fff;
+}
+.tan_box .tan_title span{
+    float:left;
+    height:42px;
+    line-height:42px;
+    margin-left:15px;
+    font-size:16px;
+}
+.tan_box .tan_title i{
+    float:right;
+    height:42px;
+    line-height:42px;
+    margin-right:15px;
+    font-size:22px;
+    color:#fff;
+}
+.input_content{
+    width: 515px;
+    margin:0 auto;
+    padding:30px 0;
+}
+.input_info{
+    width:100%;
+    margin-bottom:20px;
+}
+.input_content .input_info span{
+    font-size:14px;
+    color:#333;
+    margin-right:5px;
+}
+.input_content .input_info input{
+    display:inline-block;
+    width:435px;
+    height:30px;
+    line-height:30px;
+    border:1px solid #d2d6de;
+    color:#666;
+    padding-left:10px;
+}
+.input_content .input_info .radio_btn{
+    width:14px;
+    height:14px;
+    vertical-align: middle;
+}
+.input_content .btn_sure a{
+    padding:6px 12px;
+    display:inline-block;
+    color:#fff;
+    font-size:14px;
+    border-radius:6px;
+    margin-right:10px;
+}
+.input_content .btn_sure a.sure{
+    background:#18bc9c;
+}
+.input_content .btn_sure a.replay{
+    background:#ddd;
+    color:#444;
+}
+.delete_box{
+    width: 350px;
+    height: 240px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -120px;
+    background: #fff;
+    border-radius: 8px 8px;
+    z-index: 110;
+    overflow: hidden;
+}
+.tan_content .text_box{
+    width:160px;
+    margin:50px auto 10px;
+}
+.text_box i{
+    display:inline-block;
+    background:url(../pcImg/icon.png) no-repeat;
+    background-position: -90px 0;
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+}
+.text_box span{
+    font-size:16px;
+    color:#333;
+    vertical-align: top;
+    display:inline-block;
+    margin-top:6px;
+}
+.input_content .btn_two{
+    width:150px;
+    margin-left:110px;
+}
+.input_content .input_info select{
+    display:inline-block;
+    width:235px;
+    height:30px;
+    line-height:30px;
+    border:1px solid #d2d6de;
+    color:#666;
+    padding-left:10px;
+}
+.input_content .input_info .left_text{
+    width:100px;
+}
+.input_content .input_info .img_box{
+    float:left;
+    width:285px;
+    height:100px;
+    padding-left:10px;
+    border:1px solid #d2d6de;
+}
+.input_content .input_info .tp{
+    float:left;
+    margin-right:5px;
+}
+.input_content .input_info .sc{
+    padding:5px 15px;
+    background:#18bc9c;
+    color:#fff;
+    font-size:14px;
+    float:left;
+    vertical-align: top;
+    margin:38px 40px;
+}
+.input_content .input_info textarea{
+    float:left;
+    width:435px;
+    height:75px;
+    border:1px solid #d2d6de;
+    color:#666;
+    padding:10px 0 0 10px;
+}
+.input_content .input_info .xb{
+    margin-left:90px;
+}

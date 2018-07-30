@@ -1,0 +1,121 @@
+
+.right_box{
+    position: relative;
+    margin-left: 230px;
+    z-index: 99;
+    margin-top:65px;
+}
+.right_content{
+    width:95%;
+    background:#fff;
+    margin:25px auto 10px;
+    display: -webkit-flex;
+    display: flex;
+}
+.right_content .right_item{
+    width:25%;
+    margin:10px 15px;
+}
+.right_item .ico_one{
+    width:60px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    color:#fff;
+    float:left;
+    background:#F05050;
+    border-radius:5px;
+    font-size:30px;
+    margin-right:10px;
+}
+.right_item .ico_two{
+    background:#7266ba;
+}
+.right_item .ico_three{
+    background:#23b7e5;
+}
+.right_item .ico_four{
+    background:#27C24C;
+}
+.ico_text span{
+    display:block;
+}
+.ico_text .num{
+    font-size: 24px;
+    font-weight: 600;
+    color:#333;
+}
+.ico_text .text_info{
+    font-size:12px;
+    color:#333;
+}
+.ico_text{
+    float:left;
+    margin-top:5px;
+}
+.right_bg{
+    /* background:#e8edf0; */
+    width:95%;
+    margin:10px auto;
+    overflow:hidden;
+    border-radius:6px;
+}
+.br_nav{
+    width:95%;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    margin:10px auto 0;
+}
+.br_nav a{
+    color:#666;
+}
+.info_box{
+    width: 95%;
+    margin: 10px auto 25px;
+    background: #fff;
+    padding: 20px 0;
+}
+.item_line .ico_info{
+    float:left;
+    width:50px;
+    text-align:center;
+    color:#28bb9c;
+    vertical-align: middle;
+    font-size:26px;
+    margin-top:6px;
+}
+.item_line .ico_text{
+    float:left;
+}
+.item_line .ico_text .item_num{
+    font-size: 20px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+.item_line .ico_text .item_today{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+.info_item{ 
+    width:45%;
+    border-bottom:2px solid #f5f5f5;
+    float:left;
+    height:58px;
+    margin:0 2%;
+}
+.item_line{
+     padding:5px 0;
+     border-bottom:2px solid #28bb9c;
+     float:left;
+}
+#main3>div:nth-child(1){
+    width:100% !important;
+}
+#main3>div:nth-child(1) canvas{
+    width:100% !important;
+}
